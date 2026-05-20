@@ -28,6 +28,8 @@ apis:
     description: >-
       The Wingstop API provides access to platform services and data for enterprise integration and automation.
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/wingstop-restaurants-inc-
   - type: Website
     url: https://www.wingstop.com
 maintainers:
