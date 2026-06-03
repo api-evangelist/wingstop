@@ -1,37 +1,130 @@
 aid: wingstop
-url: https://raw.githubusercontent.com/api-evangelist/wingstop/refs/heads/main/apis.yml
 name: Wingstop
+description: >-
+  Wingstop Inc. (NASDAQ: WING) is a US-based quick-service restaurant chain
+  specializing in cooked-to-order chicken wings, tenders, and sides across
+  thousands of franchised and company-owned locations. Wingstop is digital-first
+  - digital transactions account for the large majority of systemwide sales -
+  built on its proprietary MyWingstop ordering platform and the Club Wingstop
+  loyalty program, with consumer ordering via wingstop.com, native iOS and
+  Android apps, and third-party delivery marketplaces (DoorDash, Uber Eats,
+  Grubhub). Wingstop does not operate a public developer program or publish open
+  API documentation. There is no developer.wingstop.com (the host does not
+  resolve), and ordering, loyalty, menu, and POS integrations flow through
+  bilateral corporate and franchisee technology programs rather than open
+  developer endpoints.
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/wingstop/refs/heads/main/apis.yml
+created: '2026-04-19'
+modified: '2026-06-03'
+specificationVersion: '0.19'
 tags:
   - Restaurants
   - QSR
-  - Food Service
-description: >-
-  Wingstop is a major US corporation and Fortune 1000 company. The Wingstop API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.
-created: '2026-04-19'
-modified: '2026-04-19'
-specificationVersion: '0.19'
+  - Fast Food
+  - Online Ordering
+  - Mobile Ordering
+  - Loyalty
+  - Delivery
 apis:
   - aid: wingstop:wingstop-api
     name: Wingstop API
+    description: >-
+      Wingstop does not expose a public, self-service API. Ordering, delivery
+      integration, menu data, loyalty, and restaurant information flow through
+      bilateral partner integrations rather than open developer endpoints. The
+      developer.wingstop.com host does not resolve to public documentation
+      (NXDOMAIN as of the profiling date), and there is no published API
+      reference. Any API access is negotiated per partnership with delivery
+      marketplaces, payment processors, loyalty integrators, and franchisee
+      technology vendors.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://www.wingstop.com
     tags:
       - Restaurants
       - QSR
-      - Food Service
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    baseURL: https://api.wingstop.com
-    humanURL: https://developer.wingstop.com
+      - Fast Food
+      - Online Ordering
+      - Mobile Ordering
+      - Loyalty
     properties:
-      - url: https://developer.wingstop.com/docs
-        type: Documentation
+      - type: x-status
+        url: https://www.wingstop.com
+        x-note: No public developer portal or open API documentation as of 2026-06.
+features:
+  - name: No Public Developer Program
     description: >-
-      The Wingstop API provides access to platform services and data for enterprise integration and automation.
+      Wingstop publishes no open API documentation and offers no self-service
+      developer signup. Integration is bilateral and partner-gated through
+      corporate IT or franchisee technology programs.
+  - name: MyWingstop Digital Ordering
+    description: >-
+      Proprietary digital ordering platform powering cooked-to-order online
+      ordering across web and native mobile apps, with digital making up the
+      large majority of systemwide sales.
+  - name: Club Wingstop Loyalty
+    description: >-
+      Points-based loyalty program earning rewards on spend, with exclusive
+      flavor access, merchandise drops, and experiential perks.
+  - name: Delivery And Carryout
+    description: >-
+      First-party and third-party delivery plus in-store carryout across the US
+      restaurant footprint.
+useCases:
+  - name: Consumer Mobile Ordering
+    description: >-
+      Guests place and customize orders, track status, and pay through the
+      Wingstop web and mobile experiences.
+  - name: Rewards Engagement
+    description: >-
+      Members accrue and redeem Club Wingstop points and access members-only
+      offers and experiences.
+  - name: Delivery Marketplace Listing
+    description: >-
+      Surfacing Wingstop menus, pricing, and fulfillment to consumers via
+      DoorDash, Uber Eats, and Grubhub through bilateral marketplace
+      integrations.
+  - name: Franchisee Restaurant Technology
+    description: >-
+      POS, kitchen, and back-of-house systems integrated per franchisee under
+      Wingstop technology standards rather than a public API.
+integrations:
+  - name: DoorDash
+    description: Delivery marketplace integration for on-demand fulfillment.
+  - name: Uber Eats
+    description: Delivery marketplace integration for on-demand fulfillment.
+  - name: Grubhub
+    description: Delivery marketplace integration for on-demand fulfillment.
 common:
-  - type: LinkedIn
-    url: https://www.linkedin.com/company/wingstop-restaurants-inc-
   - type: Website
     url: https://www.wingstop.com
+  - type: Corporate
+    url: https://ir.wingstop.com
+  - type: Ordering
+    url: https://www.wingstop.com/order
+  - type: Loyalty
+    url: https://www.wingstop.com/rewards
+  - type: SignUp
+    url: https://www.wingstop.com/account/sign-up
+  - type: Careers
+    url: https://www.wingstop.com/careers
+  - type: Support
+    url: https://www.wingstop.com/contact-us
+  - type: PrivacyPolicy
+    url: https://www.wingstop.com/privacy-policy
+  - type: TermsOfService
+    url: https://www.wingstop.com/terms-of-use
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/wingstop-restaurants-inc-
+  - type: X
+    url: https://x.com/wingstop
+  - type: Plans
+    url: plans/wingstop-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/wingstop-rate-limits.yml
+  - type: FinOps
+    url: finops/wingstop-finops.yml
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
