@@ -14,7 +14,7 @@ description: >-
   bilateral corporate and franchisee technology programs rather than open
   developer endpoints.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/wingstop/refs/heads/main/apis.yml
 created: '2026-04-19'
 modified: '2026-06-03'
@@ -39,7 +39,7 @@ apis:
       reference. Any API access is negotiated per partnership with delivery
       marketplaces, payment processors, loyalty integrators, and franchisee
       technology vendors.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.wingstop.com
     tags:
       - Restaurants
