@@ -105,7 +105,7 @@ common:
     url: https://www.wingstop.com/order
   - type: Loyalty
     url: https://www.wingstop.com/rewards
-  - type: SignUp
+  - type: Signup
     url: https://www.wingstop.com/account/sign-up
   - type: Careers
     url: https://www.wingstop.com/careers
