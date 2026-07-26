@@ -14,10 +14,22 @@ description: >-
   bilateral corporate and franchisee technology programs rather than open
   developer endpoints.
 type: Index
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: enterprise
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Enterprise
+  confidence: medium
+  source:
+    - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wingstop.png
 url: https://raw.githubusercontent.com/api-evangelist/wingstop/refs/heads/main/apis.yml
 created: '2026-04-19'
-modified: '2026-06-03'
+modified: '2026-07-25'
 specificationVersion: '0.19'
 tags:
   - Restaurants
@@ -27,31 +39,7 @@ tags:
   - Mobile Ordering
   - Loyalty
   - Delivery
-apis:
-  - aid: wingstop:wingstop-api
-    name: Wingstop API
-    description: >-
-      Wingstop does not expose a public, self-service API. Ordering, delivery
-      integration, menu data, loyalty, and restaurant information flow through
-      bilateral partner integrations rather than open developer endpoints. The
-      developer.wingstop.com host does not resolve to public documentation
-      (NXDOMAIN as of the profiling date), and there is no published API
-      reference. Any API access is negotiated per partnership with delivery
-      marketplaces, payment processors, loyalty integrators, and franchisee
-      technology vendors.
-    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
-    humanURL: https://www.wingstop.com
-    tags:
-      - Restaurants
-      - QSR
-      - Fast Food
-      - Online Ordering
-      - Mobile Ordering
-      - Loyalty
-    properties:
-      - type: x-status
-        url: https://www.wingstop.com
-        x-note: No public developer portal or open API documentation as of 2026-06.
+apis: []
 features:
   - name: No Public Developer Program
     description: >-

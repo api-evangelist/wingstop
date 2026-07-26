@@ -16,10 +16,6 @@ Wingstop Inc. (NASDAQ: WING) is a US-based quick-service restaurant chain specia
 
 ## APIs
 
-### Wingstop API
-Wingstop does not expose a public, self-service API. Ordering, delivery integration, menu data, loyalty, and restaurant information flow through bilateral partner integrations rather than open developer endpoints. The developer.wingstop.com host does not resolve to public documentation (NXDOMAIN as of the profiling date), and there is no published API reference. Any API access is negotiated per partnership with delivery marketplaces, payment processors, loyalty integrators, and franchisee technology vendors.
-
-**Human URL:** [https://www.wingstop.com](https://www.wingstop.com)
 
 #### Tags:
 
