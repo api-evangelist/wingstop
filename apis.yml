@@ -32,6 +32,14 @@ created: '2026-04-19'
 modified: '2026-07-25'
 specificationVersion: '0.23'
 tags:
+  - Restaurant
+  - QSR
+  - Fast Food
+  - Online Ordering
+  - Mobile Ordering
+  - Loyalty
+  - Delivery
+tags_raw:
   - Restaurants
   - QSR
   - Fast Food
